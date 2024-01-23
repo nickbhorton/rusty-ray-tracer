@@ -1,4 +1,4 @@
-pub mod linear_algebra {
+pub mod vector {
     pub struct Vec4<T>
     where
         T: Copy,

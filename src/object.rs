@@ -1,5 +1,5 @@
 pub mod objects {
-    use crate::linear_algebra::linear_algebra::Vec3;
+    use crate::linear_algebra::vector::Vec3;
     pub struct Ray {
         origin: Vec3<f32>,
         direction: Vec3<f32>,

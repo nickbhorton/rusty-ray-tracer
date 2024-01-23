@@ -1,7 +1,7 @@
 mod linear_algebra;
 mod object;
 
-use crate::linear_algebra::linear_algebra::{Vec2, Vec3, Vec4};
+use crate::linear_algebra::vector::{Vec2, Vec3, Vec4};
 use crate::object::objects::{Ray, Sphere};
 use rayon::prelude::*;
 
